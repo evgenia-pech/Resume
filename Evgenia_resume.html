@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="Evgenia, cv, resume">
+    <meta name="discription" content="Это сайт резюме Евгении  Печерской">
+    <title>Evgenia Resume</title>
+    <link rel="stylesheet" href="08_selectors.css">
+    
+</head>
+<body>
+  <div class="container">
+
+    <div class="info">
+      <img src="Foto_01.jpg" class="avatar" alt="фото не доступно">
+    
+      <br>
+
+      <div class="info-text">
+
+       <h1>Евгения Печерская</h1>
+       
+       <p> Я ученик HTML  курса у Владилена Минина<br>Я люблю творчество и рисовать</p>
+
+                     
+         <div class="card social">
+           <h3>Список социальных сетей</h3>
+     
+             <a href="https://vk.com/evgenia_tag" target="_blank">ВКонтакте</a>
+             |        
+             <a href="https://vk.com/away.php?to=https%3A%2F%2Fwww.livemaster.ru%2Fmyshop%2Fevgeniya-fwu&cc_key=" target="_blank"> Ярмарка мастеров |</a>
+             |
+             <a href="https://www.youtube.com/channel/UCCx0bbIjbMLsRtBNyXxXU9w" target="_blank">YouTube</a>
+         </div>
+        
+      </div>
+   </div>   
+
+     <div class="box">
+        <div class="card bg-yellow">
+              <h3>Мои хобби</h3>
+              <ol class="list">
+                <li>Кулинария</li>
+                <li>Петешествия</li>
+                <li>Живопись</li>
+                <li>Спорт</li>
+              </ol>
+        </div>
+        
+        
+        <div class="card bg-red">
+          <h3>Опыт работы</h3>
+
+            <table class="table">
+                <!-- <thead>
+                  <th>Название</th>
+                  <th>Должность</th>
+                  <th>Год</th>    
+                </thead> -->
+              <tbody>
+                <tr>
+                  <td>Ателье</td>
+                  <td>Швея</td>
+                  <td>1999-2000</td>
+                </tr>  
+              </tbody>
+              <tbody>
+                  <tr>
+                    <td>Магазин</td>
+                    <td>Продавец-кассир</td>
+                    <td>2002-2006</td>
+                  </tr>  
+                </tbody>
+                <tbody>
+                  <tr>
+                    <td>ИП</td>
+                    <td>Руководитель</td>
+                    <td>2006-2022</td>
+                  </tr>  
+                </tbody>
+            </table>
+        </div>
+
+        <div class="card bg-green">
+        
+        <form action="/" class="form">
+            <h3>Связаться со мной</h3>
+            <div class="form-row">
+                  
+              <div class="form-group">
+                <label for="name">Ваше имя:</label>
+                <input type="text" id="name" placeholder="Введите имя">
+              </div>
+
+              <div class="form-group">
+                <label for="email">Ваш email:</label>
+                <input type="email" id="email" placeholder="Введите email" >
+              </div>
+            
+            </div>
+
+            <div class="form-group">
+              <label for="message">Ваше сообщение:</label>
+              <!-- <br> -->
+              <textarea id="message" cols="25" rows="5" placeholder="Введите сообщение..." ></textarea>
+            </div>
+        </div>
+
+     <input class="btn" type="submit" value="Отправить">
+    </form>
+    </div>
+  </div>
+
+
+</body>
+</html>
